@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./services.scss";
+import "./about.scss";
 import { motion, useInView } from "framer-motion";
 
 const variants = {
@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <motion.div
-      className="services"
+      className="about"
       variants={variants}
       initial="initial"
       // animate="animate"
