@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_sfan8xf",
+        "template_yzd1lqi",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "K4z5ylezMrg34k8zp"
       )
       .then(
         (result) => {
@@ -58,7 +58,7 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span style={{ userSelect: "none" }}>albertas.ranauskas@gmail.com</span>
+          <span>albertas.ranauskas@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
@@ -66,7 +66,7 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span style={{ userSelect: "none" }}>+370 671 13211</span>
+          <span>+370 671 13211</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
