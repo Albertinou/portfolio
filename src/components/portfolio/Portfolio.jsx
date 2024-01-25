@@ -26,7 +26,7 @@ const items = [
     title: "Augalų galia",
     img: "/augalugalia.jpg",
     desc: `Fully responsive Eshop with a functional shopping cart and payments via Stripe Payment System. Editor can easily add, remove or update products via Sanity.io CMS`,
-    desc2: `Developed functions: Responsiveness, Integration with a backend, Intuitive Content Management System for editors, Payments`,
+    desc2: `Developed functions: Responsiveness, Integration with a backend, Intuitive Content Management System for editors, Payment system`,
     desc3: `Used technologies: Next.js, Sanity.io, Stripe, SCSS, HTML5`,
     link: "https://augalugalia.lt",
   },
