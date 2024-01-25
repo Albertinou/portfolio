@@ -7,27 +7,33 @@ const items = [
     id: 1,
     title: "Transloga",
     img: "/transloga.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: `Fully responsive web app for logistics company where user with authentification can instantly add, update or delete current prices.`,
+    desc2: `Developed functions: Authentification, Responsivness, Integration with backend`,
+    desc3: `Used technologies: Angular, Bootstrap, Firebase, SCSS, HTML5`,
     link: "https://transloga.lt",
   },
   {
     id: 2,
     title: `KK "Velžys"`,
     img: "/kkVelzys.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: `Fully responsive web app for a basketball club where editor can add or delete players, game dates, news. Timer shows time left till the next game. Games automatically move to "played" list if already ended`,
+    desc2: `Developed functions: Responsivness, Integration with backend, Intuitive Content Management System for editors`,
+    desc3: `Used technologies: Vite + React, Tailwind CSS, Sanity.io, HTML5`,
     link: "https://kkvelzys.lt",
   },
   {
     id: 3,
     title: "Augalų galia",
     img: "/augalugalia.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: `Fully responsive Eshop with a functional shopping cart and payments via Stripe Payment System. Editor can easily add, remove or update products via Sanity.io CMS`,
+    desc2: `Developed functions: Responsivness, Integration with backend, Intuitive Content Management System for editors, Payments`,
+    desc3: `Used technologies: Next.js, Sanity.io, SCSS, HTML5`,
     link: "https://augalugalia.lt",
   },
   // {
   //   id: 4,
-  //   title: "Music App",
-  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   title: "Lorem",
+  //   img: "",
   //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   // },
 ];
@@ -51,6 +57,8 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
+            <p>{item.desc2}</p>
+            <p>{item.desc3}</p>
             <a href={item.link} target="_blank">
               <button>Visit Website</button>
             </a>
