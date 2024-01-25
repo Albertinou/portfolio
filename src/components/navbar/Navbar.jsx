@@ -13,21 +13,21 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Albertino
+          Albertas R
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a href="https://www.facebook.com/AlbertsRA" target="_blank">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/albertinou/" target="_blank">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img src="/youtube.png" alt="" />
           </a>
           <a href="#">
             <img src="/dribbble.png" alt="" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

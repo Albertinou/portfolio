@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./about.scss";
+import "./about2.scss";
 import { motion, useInView } from "framer-motion";
 
 const variants = {
@@ -19,7 +19,7 @@ const variants = {
   },
 };
 
-const About = () => {
+const About2 = () => {
   const ref = useRef();
 
   const isInView = useInView(ref, { margin: "-100px" });
@@ -43,7 +43,7 @@ const About = () => {
       </motion.div> */}
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/certificate1.png" alt="" />
+          <img src="/albertas_mountain.jpg" alt="" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
@@ -113,4 +113,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About2;
