@@ -46,16 +46,29 @@ const About2 = () => {
           <img src="/albertas_mountain.jpg" alt="" />
           <div class="textWrapper">
             <h1>
+              <motion.b whileHover={{ color: "orange" }}>Technical</motion.b> skills
+            </h1>
+
+            <h3>
+              Javascript<br/>
+              Angular<br/>
+              HTML<br/>
+              CSS<br/>
+              Tailwind<br/>
+              GIT<br/>
+              React<br/>
+            </h3>
+            <h1>
               <motion.b whileHover={{ color: "orange" }}>Soft</motion.b> skills
             </h1>
-            
+
             <h3>
               Problem solving <br />
               Analytical approach <br />
               Flexibility <br />
               Teamwork <br />
             </h3>
-           
+
 
           </div>
         </div>
