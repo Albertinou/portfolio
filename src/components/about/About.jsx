@@ -44,9 +44,29 @@ const About = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/certificate1.png" alt="" />
-          <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
-          </h1>
+          <div class="textWrapper">
+            <h1>
+              <motion.b whileHover={{ color: "orange" }}>EDUCATION</motion.b>
+            </h1>
+            <h2>
+              Javascript from Scratch
+            </h2>
+            <h3>
+              Software Development Academy (285 hours) | 09.2020 - 06.2021
+            </h3>
+            <p>
+              #Advanced features of HTML and CSS <br />
+              # Advanced elements of Javascript <br />
+              # GIT #Preprocessors in CSS <br />
+              #Basics of working with designs <br />
+              #Structural programming in JavaScript <br />
+              #JavaScript frameworks (Angular) <br />
+              # Basics of Testing <br />
+              #Agile, Scrum <br />
+            </p>
+
+          </div>
+
         </div>
         {/* <div className="title">
           <h1>
