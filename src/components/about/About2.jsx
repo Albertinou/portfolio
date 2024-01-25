@@ -44,9 +44,20 @@ const About2 = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/albertas_mountain.jpg" alt="" />
-          <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
-          </h1>
+          <div class="textWrapper">
+            <h1>
+              <motion.b whileHover={{ color: "orange" }}>Soft</motion.b> skills
+            </h1>
+            
+            <h3>
+              Problem solving <br />
+              Analytical approach <br />
+              Flexibility <br />
+              Teamwork <br />
+            </h3>
+           
+
+          </div>
         </div>
         {/* <div className="title">
           <h1>
